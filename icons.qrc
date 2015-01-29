@@ -3,20 +3,20 @@
         <file>tile.png</file>
     </qresource>
     <qresource prefix="/UI">
-        <file>F:/Ladatut tiedostot/Tango/Tango/applications-graphics.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/document-new.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/document-open.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/document-save.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/document-save-as.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/edit-copy.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/edit-cut.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/edit-paste.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/edit-redo.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/edit-undo.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/input-gaming.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/system-software-update.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/View-zoom-in.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/View-zoom-out.svg</file>
-        <file>F:/Ladatut tiedostot/Tango/Tango/System-log-out2.svg</file>
+        <file>Images/UI/applications-graphics.svg</file>
+        <file>Images/UI/document-new.svg</file>
+        <file>Images/UI/document-open.svg</file>
+        <file>Images/UI/document-save.svg</file>
+        <file>Images/UI/document-save-as.svg</file>
+        <file>Images/UI/edit-copy.svg</file>
+        <file>Images/UI/edit-cut.svg</file>
+        <file>Images/UI/edit-paste.svg</file>
+        <file>Images/UI/edit-redo.svg</file>
+        <file>Images/UI/edit-undo.svg</file>
+        <file>Images/UI/input-gaming.svg</file>
+        <file>Images/UI/System-log-out2.svg</file>
+        <file>Images/UI/system-software-update.svg</file>
+        <file>Images/UI/View-zoom-in.svg</file>
+        <file>Images/UI/View-zoom-out.svg</file>
     </qresource>
 </RCC>

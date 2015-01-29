@@ -630,8 +630,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>80</width>
+          <height>528</height>
          </rect>
         </property>
         <attribute name="label">
@@ -643,8 +643,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>98</width>
-          <height>28</height>
+          <width>80</width>
+          <height>528</height>
          </rect>
         </property>
         <attribute name="label">
@@ -747,7 +747,7 @@
   <action name="actionOpen">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-open.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-open.svg</iconset>
+     <normaloff>:/UI/Images/UI/document-open.svg</normaloff>:/UI/Images/UI/document-open.svg</iconset>
    </property>
    <property name="text">
     <string>Open...</string>
@@ -762,7 +762,7 @@
   <action name="actionSave">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-save.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-save.svg</iconset>
+     <normaloff>:/UI/Images/UI/document-save.svg</normaloff>:/UI/Images/UI/document-save.svg</iconset>
    </property>
    <property name="text">
     <string>Save</string>
@@ -777,7 +777,7 @@
   <action name="actionQuit">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/System-log-out2.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/System-log-out2.svg</iconset>
+     <normaloff>:/UI/Images/UI/System-log-out2.svg</normaloff>:/UI/Images/UI/System-log-out2.svg</iconset>
    </property>
    <property name="text">
     <string>Quit</string>
@@ -789,7 +789,7 @@
    </property>
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/View-zoom-in.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/View-zoom-in.svg</iconset>
+     <normaloff>:/UI/Images/UI/View-zoom-in.svg</normaloff>:/UI/Images/UI/View-zoom-in.svg</iconset>
    </property>
    <property name="text">
     <string>Zoom In</string>
@@ -798,7 +798,7 @@
   <action name="actionNew">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-new.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-new.svg</iconset>
+     <normaloff>:/UI/Images/UI/document-new.svg</normaloff>:/UI/Images/UI/document-new.svg</iconset>
    </property>
    <property name="text">
     <string>New...</string>
@@ -813,7 +813,7 @@
   <action name="actionSave_As">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-save-as.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/document-save-as.svg</iconset>
+     <normaloff>:/UI/Images/UI/document-save-as.svg</normaloff>:/UI/Images/UI/document-save-as.svg</iconset>
    </property>
    <property name="text">
     <string>Save As...</string>
@@ -822,7 +822,7 @@
   <action name="actionUndo">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-undo.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-undo.svg</iconset>
+     <normaloff>:/UI/Images/UI/edit-undo.svg</normaloff>:/UI/Images/UI/edit-undo.svg</iconset>
    </property>
    <property name="text">
     <string>Undo</string>
@@ -834,7 +834,7 @@
   <action name="actionRedo">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-redo.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-redo.svg</iconset>
+     <normaloff>:/UI/Images/UI/edit-redo.svg</normaloff>:/UI/Images/UI/edit-redo.svg</iconset>
    </property>
    <property name="text">
     <string>Redo</string>
@@ -846,7 +846,7 @@
   <action name="actionCut">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-cut.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-cut.svg</iconset>
+     <normaloff>:/UI/Images/UI/edit-cut.svg</normaloff>:/UI/Images/UI/edit-cut.svg</iconset>
    </property>
    <property name="text">
     <string>Cut</string>
@@ -858,7 +858,7 @@
   <action name="actionCopy">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-copy.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-copy.svg</iconset>
+     <normaloff>:/UI/Images/UI/edit-copy.svg</normaloff>:/UI/Images/UI/edit-copy.svg</iconset>
    </property>
    <property name="text">
     <string>Copy</string>
@@ -870,7 +870,7 @@
   <action name="actionPaste">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-paste.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/edit-paste.svg</iconset>
+     <normaloff>:/UI/Images/UI/edit-paste.svg</normaloff>:/UI/Images/UI/edit-paste.svg</iconset>
    </property>
    <property name="text">
     <string>Paste</string>
@@ -882,7 +882,7 @@
   <action name="actionZoomOut">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/View-zoom-out.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/View-zoom-out.svg</iconset>
+     <normaloff>:/UI/Images/UI/edit-paste.svg</normaloff>:/UI/Images/UI/edit-paste.svg</iconset>
    </property>
    <property name="text">
     <string>Zoom Out</string>
@@ -961,7 +961,7 @@
   <action name="actionPainting_Mode">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/applications-graphics.svg</normaloff>:/UI/F:/Ladatut tiedostot/Tango/Tango/applications-graphics.svg</iconset>
+     <normaloff>:/UI/Images/UI/applications-graphics.svg</normaloff>:/UI/Images/UI/applications-graphics.svg</iconset>
    </property>
    <property name="text">
     <string>Painting Mode</string>
