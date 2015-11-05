@@ -1,8 +1,8 @@
 #include <QUndoView>
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "tabeditor.h"
 #include "newlevel.h"
+#include "editorview.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -49,10 +49,10 @@ void MainWindow::on_actionNew_triggered()
     NewLevel* dialog = new NewLevel(this);
     ui->statusBar->showMessage("Creating new level...");
     if(dialog->exec()){
-        TabEditor *tabEditor = new TabEditor(this, dialog->getBackground());
-        ui->tabWidget->addTab(tabEditor, dialog->getName() + QString("*"));
-        if(!ui->toolBox->isEnabled()){
-            ui->toolBox->setEnabled(true);
+        EditorView *editorView = new EditorView(this, dialog->getBackground());
+        ui->tabWidget->addTab(editorView, dialog->getName() + QString("*"));
+        if(!ui->objectsTabWidget->isEnabled()){
+            ui->objectsTabWidget->setEnabled(true);
             //ui->actionUndo->setEnabled(true);
             //ui->actionRedo->setEnabled(true);
             //ui->actionCopy->setEnabled(true);
@@ -74,8 +74,8 @@ void MainWindow::on_actionNew_triggered()
 void MainWindow::on_tabWidget_tabCloseRequested(int index)
 {
     delete ui->tabWidget->widget(index);
-    if(ui->tabWidget->count() == 0 && ui->toolBox->isEnabled()){
-        ui->toolBox->setDisabled(true);
+    if(ui->tabWidget->count() == 0 && ui->objectsTabWidget->isEnabled()){
+        ui->objectsTabWidget->setDisabled(true);
         ui->actionUndo->setDisabled(true);
         ui->actionRedo->setDisabled(true);
         ui->actionCopy->setDisabled(true);

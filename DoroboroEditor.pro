@@ -15,14 +15,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    tabeditor.cpp \
     newlevel.cpp \
-    tile.cpp
+    tile.cpp \
+    editorscene.cpp \
+    editorview.cpp
 
 HEADERS  += mainwindow.h \
-    tabeditor.h \
     newlevel.h \
-    tile.h
+    tile.h \
+    editorscene.h \
+    editorview.h
 
 FORMS    += mainwindow.ui \
     tabeditor.ui \
