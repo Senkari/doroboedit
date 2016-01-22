@@ -34,6 +34,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->actionMain_Toolbar->setChecked(true);
     ui->actionProperties->setChecked(true);
 
+    //Set item tabs disabled, you won't be using them anyway if there isn't any documents open
+    ui->objectsTabWidget->setDisabled(true);
+
     ui->statusBar->showMessage("Ready");
 }
 
@@ -148,4 +151,12 @@ void MainWindow::on_actionHistory_triggered(bool checked)
 void MainWindow::on_undoViewDock_visibilityChanged(bool visible)
 {
     ui->actionHistory->setChecked(visible);
+}
+
+void MainWindow::on_tabWidget_currentChanged(int index)
+{
+    if(ui->tabWidget->count() > 0){
+        EditorView* editor = (EditorView*)ui->tabWidget->currentWidget();
+        historyView->setStack(editor->getUndoStack());
+    }
 }

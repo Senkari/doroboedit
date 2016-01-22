@@ -47,6 +47,8 @@ private slots:
 
     void on_undoViewDock_visibilityChanged(bool visible);
 
+    void on_tabWidget_currentChanged(int index);
+
 private:
     Ui::MainWindow *ui;
     QUndoView *historyView;
